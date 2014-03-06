@@ -1,0 +1,17 @@
+We have to tables with the columns:
+- OrderHeader 
+  - orderId 
+  - orderTypeId
+  - orderDate
+  
+- OrderItem
+  - orderId
+  - orderItemSeqId
+  - productId
+  - price
+  
+ 1) Sum the number of items where the orderTypeId either SALES_ORDER or MARKETING_ORDER!
+ 2) Find all orders that doesnt have items!
+ 3) How much item was sold per month (both quantity and price)!
+ 4) What is the most popular product per orderTypeId
+
